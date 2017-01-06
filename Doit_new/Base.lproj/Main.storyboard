@@ -36,11 +36,16 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Do It" id="kOd-8U-InM">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="aCc-G8-LBc"/>
+                        <barButtonItem key="backBarButtonItem" title="Back" id="c5y-Qv-oNG"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="aCc-G8-LBc">
+                            <connections>
+                                <action selector="plusTappeld:" destination="BYZ-38-t0r" id="3sz-3k-fay"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="R2Z-iw-arY" id="Ap0-Ff-sMa"/>
-                        <segue destination="tlP-nf-qlq" kind="show" id="IK8-kW-k3A"/>
+                        <segue destination="tlP-nf-qlq" kind="show" identifier="addSegue" id="IK8-kW-k3A"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

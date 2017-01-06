@@ -63,6 +63,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     
+    @IBAction func plusTappeld(_ sender: Any) {
+        performSegue(withIdentifier: "addSegue", sender: nil)
+    }
   
     
 }

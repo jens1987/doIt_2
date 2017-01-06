@@ -13,6 +13,7 @@
 		D2380A661E1FBBBC00342325 /* Doit_new.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2380A641E1FBBBC00342325 /* Doit_new.xcdatamodeld */; };
 		D2380A681E1FBBBC00342325 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2380A671E1FBBBC00342325 /* Assets.xcassets */; };
 		D2380A6B1E1FBBBC00342325 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2380A691E1FBBBC00342325 /* LaunchScreen.storyboard */; };
+		D2380A731E1FCE8200342325 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2380A721E1FCE8200342325 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D2380A671E1FBBBC00342325 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2380A6A1E1FBBBC00342325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2380A6C1E1FBBBC00342325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2380A721E1FCE8200342325 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Task.swift; path = ../Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		D2380A5C1E1FBBBC00342325 /* Doit_new */ = {
 			isa = PBXGroup;
 			children = (
+				D2380A721E1FCE8200342325 /* Task.swift */,
 				D2380A5D1E1FBBBC00342325 /* AppDelegate.swift */,
 				D2380A5F1E1FBBBC00342325 /* ViewController.swift */,
 				D2380A611E1FBBBC00342325 /* Main.storyboard */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2380A731E1FCE8200342325 /* Task.swift in Sources */,
 				D2380A601E1FBBBC00342325 /* ViewController.swift in Sources */,
 				D2380A661E1FBBBC00342325 /* Doit_new.xcdatamodeld in Sources */,
 				D2380A5E1E1FBBBC00342325 /* AppDelegate.swift in Sources */,
